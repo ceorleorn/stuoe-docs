@@ -12,13 +12,42 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
+            plugins: [
+                function (hook, vm) {
+                    // parse twemoji
+                    hook.doneEach(function () {
+                        twemoji.parse(document);
+                    });
+                }
+            ],
             name: 'Stuoe文档',
             repo: 'https://github.com/stuoe/stuoe.git',
-            loadSidebar: true
+            loadSidebar: true,
+            loadNavbar: true,
+            search: 'auto',
+            count: {
+                countable: true,
+                position: 'top',
+                margin: '10px',
+                float: 'right',
+                fontsize: '0.9em',
+                color: 'rgb(90,90,90)',
+                language: 'chinese',
+                localization: {
+                    words: "",
+                    minute: ""
+                },
+                isExpected: true
+            }
+
 
         }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
 </body>
 
 </html>

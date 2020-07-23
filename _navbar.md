@@ -1,14 +1,12 @@
 
-* Getting started
+* 目录
 
-  * [Quick start](quickstart.md)
-  * [Writing more pages](more-pages.md)
-  * [Custom navbar](custom-navbar.md)
-  * [Cover page](cover.md)
+  * [介绍](README.md)
+  * [安装](/start/install)
+  * [捐赠](/start/sponer)
+  * [命令行](coverpage.md)
 
-* Configuration
-  * [Configuration](configuration.md)
-  * [Themes](themes.md)
-  * [Using plugins](plugins.md)
-  * [Markdown configuration](markdown.md)
-  * [Language highlight](language-highlight.md)
+* 链接
+  * [官网](https://stuoe.cn/)
+  * [仓库](https://github.com/stuoe/stuoe)
+  * [论坛](http://discuss.stuoe.cn/)
