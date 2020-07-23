@@ -7,3 +7,7 @@
  * [了解方案](/extension/think)
  * [使用扩展](/extension/use)
  * [官方扩展](/extension/list)
+ * [制作扩展](/extension/write)
+* [开发扩展](/devploarExtension/start)
+ * [了解扩展的原理](/devploarExtension/start)
+ * [一个完整的示例](/devploarExtension/templates)
