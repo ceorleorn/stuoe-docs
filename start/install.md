@@ -1,5 +1,7 @@
+## 安装
 
-#### 你需要一个安装了[Python3.8+](https://python.org/) , [nginx1.16.1](https://www.nginx.com/)的服务器
+
+##### 你需要一个安装了[Python3.8+](https://python.org/) , [nginx1.16.1](https://www.nginx.com/)的服务器
 
 从[pypi](https://pypi.org/project/stuoe)安装（强烈不推荐）
 ``` bash
