@@ -1,14 +1,8 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/snbck/stuoe.github.io/master/static/Stuoe.png" width="300" height="300">
+![logo](https://cdn.jsdelivr.net/gh/snbck/stuoe.github.io@master/static/Stuoe.png)
 
-</div>
+# Stuoe
 
-
-## Stuoe是轻量的论坛软件{docsify-ignore-all}
-
-
-> 注意,stuoe还是测试版软件。这意味着他还有很多Bug🤢和不足👀,所以请不要现在在生产中使用
-> stuoe,可以等待，也可以帮助我们开发
+> The Stuoe Project的目标是构建一个使用Python实现的：轻量，简洁，易于安装，便于扩展的轻论坛框架。让论坛软件不在陌生，缩短安装步骤，让即使没有任何基础的人也能熟练的使用.组织由学生组成
 
 * 前端使用[MDUI](https://mdui.org/)，这是一个基于 [Material Design](https://material.io/design/) 的前端框架，CSS和JS文件压缩后仅有40KB大小
 
@@ -18,14 +12,5 @@
 
 * 使用[Simditor](https://simditor.tower.im/)富文本编辑器，胜任各种排版，使用[Base64](https://www.base64decode.org/)存储图片可以减少[Requests](https://github.com/request/request)数量，减轻服务器负载，加快界面渲染速度
 
-
-
-## 链接
-
-* 官网:  [https://stuoe.cn](https://stuoe.cn)
-* 版本 : [https://pypi.org/project/stuoe](https://pypi.org/project/stuoe)
-* 论坛 : [http://discuss.stuoe.cn/](http://discuss.stuoe.cn/)
-
-## 协议
-使用[Apache License](http://www.apache.org/licenses/)，请关注[License](https://github.com/stuoe/stuoe/blob/master/LICENSE)
-
+[GitHub](https://github.com/Hanxueqing/Douban-Movie.git)
+[Get Started](#quick-start)
