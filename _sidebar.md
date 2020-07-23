@@ -3,4 +3,5 @@
  * [生产](/start/nginx)
  * [捐赠](/start/sponer)
  * [指令](start/cmdline)
-* [扩展](/extsions/extensions)
+* [扩展](/extension)
+ * [示例](/extension/expamle)
