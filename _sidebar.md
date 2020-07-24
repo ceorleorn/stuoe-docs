@@ -11,3 +11,6 @@
 * [开发扩展](/devploarExtension/start)
  * [了解扩展的原理](/devploarExtension/start)
  * [一个完整的示例](/devploarExtension/templates)
+ * [Forum对象函数](/devploarExtension/api/serverconf)
+    * [forum.serverconf](/devploarExtension/api/serverconf)
+    * [forum.database](/devploarExtension/api/db)
