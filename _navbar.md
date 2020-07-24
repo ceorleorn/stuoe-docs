@@ -4,7 +4,7 @@
   * [介绍](README.md)
   * [安装](/start/install)
   * [捐赠](/start/sponer)
-  * [命令行](coverpage.md)
+  * [命令行](/start/cmdline)
 
 * 链接
   * [官网](https://stuoe.cn/)

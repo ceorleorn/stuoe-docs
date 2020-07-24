@@ -14,3 +14,5 @@
  * [Forum对象函数](/devploarExtension/api/serverconf)
     * [forum.serverconf](/devploarExtension/api/serverconf)
     * [forum.database](/devploarExtension/api/db)
+    * [forum.route](/devploarExtension/api/route)
+    * [forum.view](/devploarExtension/api/view)
