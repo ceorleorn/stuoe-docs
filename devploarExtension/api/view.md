@@ -42,3 +42,10 @@ def hello():
 ```
 
 一个标准的stuoe界面,无论是登入还是未登入
+
+### 增添首页侧栏
+
+``` python
+forum.view_sidebar_add(name="test",url="/test",icon="ac_unit")
+```
+在首页侧栏上添加新的栏,name为名称，url为连接，icon为[Material Icon](https://www.mdui.org/docs/material_icon#mdui-dialog)
