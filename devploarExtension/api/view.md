@@ -43,9 +43,45 @@ def hello():
 
 一个标准的stuoe界面,无论是登入还是未登入
 
+## 控件
+
+控件指扩展可以在不与其他扩展冲突的情况下，可以自由修改的界面部分
+
 ### 增添首页侧栏
 
 ``` python
 forum.view_sidebar_add(name="test",url="/test",icon="ac_unit")
 ```
 在首页侧栏上添加新的栏,name为名称，url为连接，icon为[Material Icon](https://www.mdui.org/docs/material_icon#mdui-dialog)
+
+### 增加登入用户右上角个人菜单选项
+
+``` python
+forum.view_loginuser_menu_add_option(name="test options",url="/test",icon="extension")
+```
+
+增加登入用户右上角个人菜单选项，从“资料”和已添加控件后开始增加
+
+### 增加登入用户右上角个人菜单分割线
+
+``` python
+forum.view_loginuser_menu_add_line()
+```
+
+增加登入用户右上角个人菜单分割线，从“资料”和已添加控件后开始增加
+
+### 增加登入用户查看帖子右下角菜单选项
+
+``` python
+forum.view_post_menu_add_option(name="test",url="test",icon="extension")
+```
+
+增加登入用户查看帖子右下角菜单选项，从“设为星标”和已添加控件后开始增加
+
+### 增加登入用户查看帖子右下角菜单分割线
+
+``` python
+forum.view_post_menu_add_line()
+```
+
+增加登入用户查看帖子右下角菜单分割线，从“设为星标”和已添加控件后开始增加
