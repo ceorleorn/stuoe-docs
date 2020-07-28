@@ -18,10 +18,11 @@ python setup.py install
 stuoe startproject --name mysite
 cd mysite
 ```
-卸载脚手架（会冲突）
-``` bash
-pip uninstall stuoe
+新建配置文件 "server.conf"
+``` conf
+{'init': False, 'stuoe_name': 'My Community', 'stuoe_des': 'Community', 'stuoe_smtp_host': '', 'stuoe_smtp_port': '', 'stuoe_smtp_email': '', 'stuoe_smtp_password': '', 'stuoe_admin_mail': '', 'stuoe_admin_password': '', 'url': '127.0.0.1', 'colorPrimary': 'deep-orange', 'colorText': 'blue', 'robots.txt': 'User-agent: *\r\nAllow:/', 'js': '', 'open_email': True}
 ```
+
 初始化数据库
 ``` bash
 flask db init
