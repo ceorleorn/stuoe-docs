@@ -3,7 +3,7 @@
 </div>
 
 
-## Stuoe是轻量的论坛软件{docsify-ignore-all}
+## Stuoe是轻量的论坛软件
 
 
 > 注意，Stuoe 还是测试版软件。这意味着他还有很多Bug🤢和不足👀,所以请不要现在在生产中使用！<br/>
